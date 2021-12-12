@@ -25,6 +25,7 @@ class CreateDiaristasTable extends Migration
         $table->string('complemento', 50)->nullable();
         $table->char('cep', 8);
         $table->char('estado', 2);
+        $table->string('cidade', 50);
         $table->integer('codigo_ibge');
         $table->string('foto_usuario');
         $table->timestamps();
